@@ -4,6 +4,7 @@ Cask for [Barq](https://github.com/awaistechnologist/barq-term) — the AI-nativ
 
 ```bash
 brew tap awaistechnologist/barq
+brew trust awaistechnologist/barq        # Homebrew 6+ requires trusting third-party cask taps
 brew install --cask barq-term            # add --no-quarantine to skip the Gatekeeper prompt
 brew upgrade --cask barq-term            # update
 ```
